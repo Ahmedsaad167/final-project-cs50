@@ -5,8 +5,7 @@ Equation Assistant the progrem works in the work of mathematical and accounting 
 ## Project Sections
 - Math
 
-`
-int math()
+    int math()
 {
     int service =
         get_int("\nChoose the equation\n\n1- Summation(+)\n2- Minus(-)\n3- Multiply(X)\n4- Division(/)\n5- Average \n Number: ");
@@ -33,7 +32,7 @@ int math()
         avg(num1, num2);
     }
     return 0;
-}`
+}
 
 - Accounting
 
