@@ -4,7 +4,9 @@ Equation Assistant the progrem works in the work of mathematical and accounting 
 
 ## Project Sections
 - Math
-`int math()
+
+`
+int math()
 {
     int service =
         get_int("\nChoose the equation\n\n1- Summation(+)\n2- Minus(-)\n3- Multiply(X)\n4- Division(/)\n5- Average \n Number: ");
@@ -34,7 +36,9 @@ Equation Assistant the progrem works in the work of mathematical and accounting 
 }`
 
 - Accounting
-`int acounting()
+
+`
+int acounting()
 {
     int acc = get_int("\nChoose the equation\n\n1- Vat (.14)\n2- Residual(.01)\n3- Both\nNumber: ");
     float total = get_float("\nTotal: ");
@@ -45,7 +49,9 @@ Equation Assistant the progrem works in the work of mathematical and accounting 
 
 ### Math Sections
 - sum : to collect numbers.
-`int sum(float num1, float num2)
+
+`
+int sum(float num1, float num2)
 {
     printf("\nSum: %.2f\n", num1 + num2);
     return 0;
@@ -61,19 +67,25 @@ Equation Assistant the progrem works in the work of mathematical and accounting 
 `
 
 - multiply : to multiply numbers.
-`int multiply(float num1, float num2)
+
+`
+int multiply(float num1, float num2)
 {
     printf("\nMultiply: %.2f\n", num1 * num2);
     return 0;
 }`
 - division : Divide numbers by one.
-`int division(float num1, float num2)
+
+`
+int division(float num1, float num2)
 {
     printf("\nDivision: %.2f\n", num1 / num2);
     return 0;
 }`
 - average : Calculate the average between two numbers.
-`int avg(float num1, float num2)
+
+`
+int avg(float num1, float num2)
 {
     printf("\nAverage: %.2f\n", (num1 + num2) / 2);
     return 0;
@@ -88,19 +100,25 @@ Equation Assistant the progrem works in the work of mathematical and accounting 
 
 ### Accounting Sections
 - Vat : It is 14% of the net product and added to the net and paid by the final consumer
-`if (acc == 1)
+
+`
+if (acc == 1)
     {
         printf("Tax: %.2f\n", tax);
         printf("Net: %.2f\n", total + tax);
     }`
 - Duduction : 1% of the net product will be deducted from the net
-`    else if (acc == 2)
+
+`
+    else if (acc == 2)
     {
         printf("Deduction: %.2f\n", dud);
         printf("Net: %.2f\n", total - dud);
     }`
 - Both : VAT is added to the net, then 1% of the net is deducted from the total product
-`   else if (acc == 3)
+
+`
+   else if (acc == 3)
     {
         printf("Tax: %.2f\n", tax);
         printf("Duducation: %.2f\n", dud);
