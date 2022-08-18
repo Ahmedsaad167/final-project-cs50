@@ -94,9 +94,11 @@ int avg(float num1, float num2)
     printf("\nAverage: %.2f\n", (num1 + num2) / 2);
     return 0;
 }`
-<hr>
+</hr>
 ![1](https://user-images.githubusercontent.com/108421177/185293267-d75fb1a4-7a19-4afc-92fc-5e0f018815f8.png)
+</br>
 ![2](https://user-images.githubusercontent.com/108421177/185293270-a1af9d95-dd4d-447a-8c61-8db5d6b07a63.png)
+</br>
 ![3](https://user-images.githubusercontent.com/108421177/185293273-bd10a4a0-eae9-4828-b112-dd1deebeb219.png)
 <br>
 
@@ -126,12 +128,12 @@ if (acc == 1)
         printf("Duducation: %.2f\n", dud);
         printf("Net: %.2f\n", both);
     }`
-<hr>
+</hr>
 ![4](https://user-images.githubusercontent.com/108421177/185293274-b18be313-277b-4583-913b-649735b53ae1.png)
-<br>
+</br>
 ![5](https://user-images.githubusercontent.com/108421177/185293263-8478ad0c-2f7d-4a4f-85bd-c286c05bf161.png)
-<br>
-<hr>
+</br>
+</hr>
 
 ## Library
 - stdio.h
