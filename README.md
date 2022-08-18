@@ -14,7 +14,7 @@ Equation Assistant the progrem works in the work of mathematical and accounting 
 - average : Calculate the average between two numbers.
 
 <hr>
-![1](https://raw.githubusercontent.com/Ahmedsaad167/final-project-cs50/main/1.png)
+![1](https://github.com/Ahmedsaad167/final-project-cs50/blob/main/1.png)
 <br>
 ![2](https://raw.githubusercontent.com/Ahmedsaad167/final-project-cs50/main/2.png)
 <br>
