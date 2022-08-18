@@ -2,10 +2,15 @@
 
 Equation Assistant the progrem works in the work of mathematical and accounting equations with this program only
 
+### Project Demo
+
+https://youtu.be/lqGGeCd5R0s
+
 ## Project Sections
 - Math
 
-    int math()
+`
+int math()
 {
     int service =
         get_int("\nChoose the equation\n\n1- Summation(+)\n2- Minus(-)\n3- Multiply(X)\n4- Division(/)\n5- Average \n Number: ");
@@ -32,7 +37,7 @@ Equation Assistant the progrem works in the work of mathematical and accounting 
         avg(num1, num2);
     }
     return 0;
-}
+}`
 
 - Accounting
 
@@ -90,11 +95,9 @@ int avg(float num1, float num2)
     return 0;
 }`
 <hr>
-![1](https://raw.githubusercontent.com/Ahmedsaad167/final-project-cs50/main/1.png)
-<br>
-![2](https://raw.githubusercontent.com/Ahmedsaad167/final-project-cs50/main/2.png)
-<br>
-![1](https://raw.githubusercontent.com/Ahmedsaad167/final-project-cs50/main/3.png)
+![1](https://user-images.githubusercontent.com/108421177/185293267-d75fb1a4-7a19-4afc-92fc-5e0f018815f8.png)
+![2](https://user-images.githubusercontent.com/108421177/185293270-a1af9d95-dd4d-447a-8c61-8db5d6b07a63.png)
+![3](https://user-images.githubusercontent.com/108421177/185293273-bd10a4a0-eae9-4828-b112-dd1deebeb219.png)
 <br>
 
 ### Accounting Sections
@@ -124,9 +127,9 @@ if (acc == 1)
         printf("Net: %.2f\n", both);
     }`
 <hr>
-![1](https://raw.githubusercontent.com/Ahmedsaad167/final-project-cs50/main/4.png)
+![4](https://user-images.githubusercontent.com/108421177/185293274-b18be313-277b-4583-913b-649735b53ae1.png)
 <br>
-![1](https://raw.githubusercontent.com/Ahmedsaad167/final-project-cs50/main/5.png)
+![5](https://user-images.githubusercontent.com/108421177/185293263-8478ad0c-2f7d-4a4f-85bd-c286c05bf161.png)
 <br>
 <hr>
 
